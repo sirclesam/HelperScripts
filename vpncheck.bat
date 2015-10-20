@@ -18,6 +18,8 @@ if "%ERRORLEVEL%" NEQ "0" (
 	echo OpenVPN Running
 )
 
+::echo %TIME% >> C:\Users\Samwise\HelperScripts\qwert.txt
+
 echo waiting for 1sec
 ping 1.1.1.1 -n 1 -w 500 > nul
 echo -------------------------
